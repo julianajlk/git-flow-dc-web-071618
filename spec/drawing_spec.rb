@@ -5,7 +5,7 @@ describe "drawing" do
   end
 
   it "the drawing.png file is not empty" do
-    contents = read_file("public/img/")
+    contents = read_file("public/img/drawing.png")
     expect(contents.length).to be > 500
   end
 
