@@ -1,7 +1,10 @@
 describe "drawing" do
   it "a file called drawing exists in the public/img folder" do
     file_names = Dir["public/img/*"]
-    expect(file_names).to include("public/img/drawing.png")
+    expect(file_names).to include("public/img/drawing.png","public/img/fireflies.jpg", "public/img/readme-link.png", "publi
+c/img/branch-dropdown.png", "public/...changes.png", "public/img/firefly-branch.p
+ng", "public/img/polar-bear.jpg", "public/img/lauren.png"] to include "public/img
+/drawing.png")
   end
 
   it "the drawing.png file is not empty" do
